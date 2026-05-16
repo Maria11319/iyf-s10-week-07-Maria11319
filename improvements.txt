@@ -1,0 +1,6 @@
+Weather Dashboard - Improvements Needed:
+1. API key should be hidden (not visible in code)
+2. Add loading spinner while fetching
+3. Add error message for network failures
+4. Cache recent city searches in localStorage
+5. Add unit toggle (Celsius/Fahrenheit)

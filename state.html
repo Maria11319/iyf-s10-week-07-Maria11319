@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>State Todo App</title></head>
+<body>
+    <h1>My Todo App</h1>
+    <input type="text" id="todoInput" placeholder="Add a task" />
+    <button id="addBtn">Add</button>
+    <div>
+        <button onclick="setFilter('all')">All</button>
+        <button onclick="setFilter('active')">Active</button>
+        <button onclick="setFilter('completed')">Completed</button>
+    </div>
+    <ul id="todoList"></ul>
+    <script src="state.js"></script>
+</body>
+</html>
